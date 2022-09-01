@@ -1,0 +1,18 @@
+
+.active {
+	background-color: #3A4256;
+	color: #fff !important;
+}
+.nav-link {
+	padding: 8px 23px !important;
+	border-radius: 8px;
+	margin-right: 5px;
+}
+.nav-link:hover{
+  background-color: #3A4256;
+	color: #fff !important;
+  transition: all 0.3s ease-in;
+}
+.main_btn {
+	padding: 8px 23px;
+}

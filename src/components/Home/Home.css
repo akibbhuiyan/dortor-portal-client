@@ -1,0 +1,182 @@
+.getstarted{
+   background:linear-gradient(90deg, #19D3AE -22.5%, #0FCFEC 120.83%)
+}
+/* .hero{
+   
+}
+.hero{
+    background-image: url(../../assets/images/bg.png);
+} */
+.hero p, .hero h1 {
+	text-align: left;
+}.getstarted {
+	float: left;
+}
+.hero {
+	height: 75vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-image: url(../../assets/images/bg.png);
+	background-size: cover;
+	background-position: center;
+}.chairpic {
+	width: 87%;
+    border-radius: 10px;
+}
+.aboutus {
+	justify-content: space-evenly;
+	align-items: center;
+    margin-top: 50px !important;
+}
+
+.cardgroup {
+	background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+	border-radius: 14px;
+	display: flex;
+	align-items: center;
+	min-height: 112px;
+    margin-bottom: 20px;
+}
+.col-lg-3 {
+	flex: 0 0 auto;
+	width: 30%;
+}
+.cardgroup img {
+	width: 50px;
+	margin-right: 16px;
+	margin-left: 5px;
+}.details {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    color: #fff;
+    text-align: justify;
+}
+.cardgroup:nth-child(2){
+    background: #3A4256;
+}
+
+
+/* Services */
+.service,.testimonial {
+	margin-top: 80px;
+}.main-title {
+	font-size: 20px;
+	font-weight: 700;
+	color: #19D3AE;
+}.main-subtitle {
+	font-size: 31px;
+	font-weight: 400;
+	margin-bottom: 45px;
+	color: #3A4256;
+}
+.serviceCard {
+	width: 31%;
+	margin: auto;
+	margin-top: 19px;
+	box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+}.serviceCard img {
+	width: 54px;
+}.serviceCard h3 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #3A4256;
+	margin: 16px 0;
+}.treatment {
+	width: 56%;
+    border-radius: 8px;
+}
+
+/* Appointment */
+.doctor-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.doctorImg {
+	width: 86%;
+	margin-top: -1rem;
+}
+.appointment {
+	background-image: url(../../assets/images/appointment.png);
+	text-align: left;
+	height: 66vh;
+	background-size: cover;
+}.appointment-details {
+	margin-top: 6rem !important;
+	color: #fff;
+}
+
+/* Testimonial */
+.testimonialCard {
+	text-align: left;
+	padding-left: 18px;
+}
+.testimonialCard p {
+	padding: 0 30px;
+}.person {
+	display: flex;
+	justify-content: start;
+	padding-left: 27px;
+	align-items: center;
+}.person-details p {
+	padding: 0 !important;
+}.person-details {
+	text-align: left;
+	margin-left: 16px;
+	margin-top: 14px;
+}.person-details h4 {
+	font-size: 20px;
+	color: #3A4256;
+}
+/* Contact */
+.contactSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 15px;
+}.contact-form {
+	width: 380px;
+	margin: auto;
+    text-align: center;
+}.contact-form input,.msgBox {
+	width: 100%;
+	border-radius: 8px;
+	border: none;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+}
+/* Footer */
+.footerbg{
+    background-image: url(../../assets/images/footer.png);
+
+}
+.footerbg {
+    background-image: url(../../assets/images/footer.png);
+	height: 50vh;
+	background-size: contain;
+	padding-top: 80px;
+}
+.footer {
+	text-align: left;
+}.footer-content h4 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #939393;
+	margin-bottom: 26px;
+}.footer-content li {
+	list-style: none;
+	margin-bottom: 10px;
+	color: #3A4256;
+}
+@media (max-width: 768px){
+    .doctorImg {
+      
+        display: none;
+    }
+    
+}

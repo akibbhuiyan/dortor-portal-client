@@ -1,0 +1,38 @@
+.css-serial {
+    counter-reset: serial-number;  /* Set the serial number counter to 0 */
+  }
+  
+  .css-serial td:first-child:before {
+    counter-increment: serial-number;  /* Increment the serial number counter */
+    content: counter(serial-number);  /* Display the counter */
+  }
+  .dashbord-right {
+	background-color: #F1F5F9;
+}
+
+  .dashbord-left {
+	text-align: left;
+	padding-top: 26px;
+}
+  .dashbord-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0;
+}.dashbord-title p {
+	font-size: 24px;
+} .dashbord-title button {
+	border: 1px solid #000000;
+	background-color: transparent;
+	padding: 10px;
+	border-radius: 10px;
+}.dashbord-table {
+	width: 100%;
+	text-align: left;
+}.dashbord-table thead {
+	background-color: #E6E6E6;
+	border-radius: 10px;
+}.dashbord-table thead tr th,.dashbord-table tbody tr td {
+	padding: 13px 17px;
+	font-size: 14px;
+} 

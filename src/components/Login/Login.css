@@ -1,0 +1,49 @@
+.loginContainer {
+	text-align: left;
+	margin: auto;
+	width: 400px;
+	padding: 41px 27px;
+}.signupForm h2 {
+	text-align: center;
+	font-size: 20px;
+}.signupForm span {
+	color: red;
+}
+.signupForm label {
+	font-size: 14px;
+	margin: 9px 0;
+}
+.signupForm input {
+	width: 100%;
+	padding: 11px 16px;
+	border-radius: 8px;
+	border: 1px solid #CFCFCF;
+}
+.signupForm input[type="submit"] {
+	background-color: #3A4256;
+	color: #fff;
+    margin-top: 20px;
+}.signupForm p {
+	text-align: center;
+    margin-top: 20px;
+}.devide {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0;
+}.devide span {
+	width: 42%;
+	height: 1px;
+	background-color: #000;
+	margin-top: -14px;
+}.devide p {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+}.googleLogin {
+	background-color: transparent;
+	width: 100%;
+	padding: 15px 0;
+	border: 1px solid #3A4256;
+	border-radius: 10px;
+}
